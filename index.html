@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <figure class="user-choice">
+        <h3>You</h3>
+        <h4 class="user-current-score">Score: 0</h4>
+        <img src="" alt="" class="user-round" />
+        <figcaption class="you">Your Choice</figcaption>
+      </figure>
+
+      <figure class="computer-choice">
+        <h3>Computer</h3>
+        <h4 class="computer-current-score">Score: 0</h4>
+        <img src="" alt="" class="computer-round" />
+        <figcaption class="computer">Computer's Choice</figcaption>
+      </figure>
+    </div>
+    <div class="win-container">
+      <figure class="win-figure">
+        <figcaption class="user-win">Total wins: 0</figcaption>
+      </figure>
+      <figure class="win-figure">
+        <figcaption class="computer-win">Total wins: 0</figcaption>
+      </figure>
+    </div>
+    <div class="options">
+      <img src="./public/Rock.png" alt="rock" class="rock" />
+      <img src="./public/Scissor.png" alt="scissors" class="scissors" />
+      <img src="./public/Paper.png" alt="paper" class="paper" />
+    </div>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1 class="modal-text"></h1>
+    </div>
+    <div class="hidden overlay"></div>
+  </body>
+</html>
