@@ -42,15 +42,15 @@ const handleEventListener = function (e) {
     return;
   }
   if (e.target.classList.contains("rock") || e.key == "r") {
-    userRound.src = "./public/Rock.png";
+    userRound.src = "./public/rock.png";
     playerChoice = "rock";
     you.textContent = "rock";
   } else if (e.target.classList.contains("scissors") || e.key == "s") {
-    userRound.src = "./public/Scissor.png";
+    userRound.src = "./public/scissor.png";
     playerChoice = "scissor";
     you.textContent = "scissor";
   } else if (e.target.classList.contains("paper") || e.key == "p") {
-    userRound.src = "./public/Paper.png";
+    userRound.src = "./public/paper.png";
     playerChoice = "paper";
     you.textContent = "paper";
   } else {
