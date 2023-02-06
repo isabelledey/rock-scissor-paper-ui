@@ -1,9 +1,7 @@
 let playerScore = 0;
 let computerScore = 0;
-let message = "";
 let playerWins = 0;
 let computerWins = 0;
-let again = false;
 let playerChoice;
 let computerHand;
 
