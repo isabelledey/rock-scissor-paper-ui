@@ -36,7 +36,11 @@ function computerPlay() {
 }
 
 const handleEventListener = function (e) {
-  if (playerScore === 5 || computerScore === 5) {
+  if (
+    playerScore === 5 ||
+    computerScore === 5 ||
+    !modal.classList.contains("hidden")
+  ) {
     return;
   }
   if (e.target.classList.contains("rock") || e.key == "r") {
