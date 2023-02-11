@@ -71,8 +71,6 @@ window.addEventListener("keydown", handleEventListener);
 
 function playRound(playerSelection, computerSelection) {
   if (playerSelection === computerSelection) {
-    playerScore;
-    computerScore;
     return `It's a Tie, You both picked ${playerSelection}`;
   } else if (
     (playerSelection === "rock" && computerSelection === "scissor") ||
